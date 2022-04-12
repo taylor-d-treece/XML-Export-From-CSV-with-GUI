@@ -10,7 +10,7 @@ def xml_file_select():
               [sg.Button("Submit")], [sg.Button("Exit")]]
 
     # Building Window
-    window = sg.Window('ATO XML Export', layout, size=(600, 160))
+    window = sg.Window('XML Export', layout, size=(600, 160))
 
     while True:
         event, values = window.read()
