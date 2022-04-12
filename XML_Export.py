@@ -1,5 +1,5 @@
 import csv
-from GUITest import xml_file_select
+from GUI import xml_file_select
 
 file_selected, dest_selected = xml_file_select()
 
